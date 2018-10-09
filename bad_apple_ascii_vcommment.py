@@ -6,7 +6,7 @@
 # 高 30个单位
 # 帧率 ：30/sec
 
-import Image
+from PIL import Image
 import os
 import time
 
@@ -42,7 +42,7 @@ def file_cmp(x,y):
 
 # 设置文件类型和帧图片所在路径
 filetype = 'bmp'
-capturefolder = "/home/grzhan/Windows_G:/Capture/"
+capturefolder = "./Capture/"
 
 # 帧图片的宽高
 width = 80
